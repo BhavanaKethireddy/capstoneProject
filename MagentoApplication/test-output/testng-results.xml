@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-24T12:10:19 IST" name="Suite" finished-at="2025-03-24T12:13:10 IST" duration-ms="171810">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.MagentoApplication.TestRunner.MagentoApplicationTestNg@4b2a01d4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.MagentoApplication.TestRunner.MultipleItemsInCartTestRunner@101639ae]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.MagentoApplication.TestRunner.loggingOutTestRunner@4983159f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.MagentoApplication.TestRunner.loginFunctionalityTestRunner@23bff419]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.MagentoApplication.TestRunner.loginSearchAddTestRunner@44e3a2b2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-24T12:10:19 IST" name="Test" finished-at="2025-03-24T12:13:10 IST" duration-ms="171810">
+      <class name="com.MagentoApplication.TestRunner.loginSearchAddTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.MagentoApplication.TestRunner.loginSearchAddTestRunner@44e3a2b2]" started-at="2025-03-24T12:11:17 IST" name="setUpClass" finished-at="2025-03-24T12:11:17 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@638341b0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.MagentoApplication.TestRunner.loginSearchAddTestRunner@44e3a2b2]" started-at="2025-03-24T12:11:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-24T12:12:39 IST" duration-ms="82695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To check the Sign In functionality, auto-suggestion feature in search, and addition of product to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking Login, Product Search, and Adding Product to Cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.MagentoApplication.TestRunner.loginSearchAddTestRunner@44e3a2b2]" started-at="2025-03-24T12:12:39 IST" name="tearDownClass" finished-at="2025-03-24T12:12:40 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.MagentoApplication.TestRunner.loginSearchAddTestRunner -->
+      <class name="com.MagentoApplication.TestRunner.MultipleItemsInCartTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.MagentoApplication.TestRunner.MultipleItemsInCartTestRunner@101639ae]" started-at="2025-03-24T12:12:40 IST" name="setUpClass" finished-at="2025-03-24T12:12:40 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@638341b0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.MagentoApplication.TestRunner.MultipleItemsInCartTestRunner@101639ae]" started-at="2025-03-24T12:12:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-24T12:13:10 IST" duration-ms="30738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding Multiple Products to Cart & Validating Cart Summary"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Adding Multiple Products to Cart & Validating Cart Summary"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.MagentoApplication.TestRunner.MultipleItemsInCartTestRunner@101639ae]" started-at="2025-03-24T12:13:10 IST" name="tearDownClass" finished-at="2025-03-24T12:13:10 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.MagentoApplication.TestRunner.MultipleItemsInCartTestRunner -->
+      <class name="com.MagentoApplication.TestRunner.loggingOutTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.MagentoApplication.TestRunner.loggingOutTestRunner@4983159f]" started-at="2025-03-24T12:10:55 IST" name="setUpClass" finished-at="2025-03-24T12:10:55 IST" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@638341b0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.MagentoApplication.TestRunner.loggingOutTestRunner@4983159f]" started-at="2025-03-24T12:10:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-24T12:11:17 IST" duration-ms="21475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To check the Logout functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking Logout Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.MagentoApplication.TestRunner.loggingOutTestRunner@4983159f]" started-at="2025-03-24T12:11:17 IST" name="tearDownClass" finished-at="2025-03-24T12:11:17 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.MagentoApplication.TestRunner.loggingOutTestRunner -->
+      <class name="com.MagentoApplication.TestRunner.loginFunctionalityTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.MagentoApplication.TestRunner.loginFunctionalityTestRunner@23bff419]" started-at="2025-03-24T12:10:41 IST" name="setUpClass" finished-at="2025-03-24T12:10:42 IST" duration-ms="89" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@638341b0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.MagentoApplication.TestRunner.loginFunctionalityTestRunner@23bff419]" started-at="2025-03-24T12:10:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-24T12:10:54 IST" duration-ms="12879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with Valid & Invalid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Unknown"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.MagentoApplication.TestRunner.loginFunctionalityTestRunner@23bff419]" started-at="2025-03-24T12:10:54 IST" name="tearDownClass" finished-at="2025-03-24T12:10:55 IST" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.MagentoApplication.TestRunner.loginFunctionalityTestRunner -->
+      <class name="com.MagentoApplication.TestRunner.MagentoApplicationTestNg">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.MagentoApplication.TestRunner.MagentoApplicationTestNg@4b2a01d4]" started-at="2025-03-24T12:10:19 IST" name="setUpClass" finished-at="2025-03-24T12:10:20 IST" duration-ms="1265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@638341b0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.MagentoApplication.TestRunner.MagentoApplicationTestNg@4b2a01d4]" started-at="2025-03-24T12:10:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-24T12:10:40 IST" duration-ms="20135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User registration with valid and invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking User Registration"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.MagentoApplication.TestRunner.MagentoApplicationTestNg@4b2a01d4]" started-at="2025-03-24T12:10:40 IST" name="tearDownClass" finished-at="2025-03-24T12:10:41 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.MagentoApplication.TestRunner.MagentoApplicationTestNg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
